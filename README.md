@@ -13,8 +13,8 @@ from the Spotify developer dashboard. You also need:
 
 * `user_id`
 
-for the user whose playlist(s) you want to make a randomized version of. Normally this will be you and you kind fund your ID at https://developer.spotify.com/console/get-current-user/ (hint: mine is a long number but I'm not sure if that's universal).
+for the user whose playlist(s) you want to make a randomized version of. Normally this will be you and you can find your ID at https://developer.spotify.com/console/get-current-user/ (hint: mine is a long number but I'm not sure if that's universal).
 
-Put those things in a `cred.py` file in the same folder as `randipy` and you should be good to go.
+Put those things in a `cred.py` file in the same folder as `randipy.py` and you should be good to go.
 
 This script relies upon `spotipy` and `randomname`, so be sure to install those with `pip`. Good luck!
